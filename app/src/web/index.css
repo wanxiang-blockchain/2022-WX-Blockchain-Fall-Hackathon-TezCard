@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './style/react-calendar-heatmap.css';
+body {
+  /* overflow-y: hidden; */
+  font-size: 16px;
+}
+:root {
+  --mainColor: red;
+  --aColor: pink;
+  --headerHeight: 80px;
+  --headerBgColor: #fff;
+  --bgColor: #fff;
+  --borderColor: #f2f4f7;
+  --borderRadius: 4px;
+}
+#root {
+  height: 100%;
+}
+/* a {
+  color: var(--aColor);
+} */
+.contentRoot {
+  height: calc(100vh - var(--headerHeight));
+}
+
+/* width */
+/* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #e7e5e4;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #a8a29e;
+  border-radius: 5px;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #78716c;
+} */
